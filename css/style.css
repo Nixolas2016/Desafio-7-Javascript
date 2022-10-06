@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Saira', sans-serif;
+}
+
+body {
+    background-color: rgb(35, 37, 39);
+    margin: 0;
+    padding: 0;
+    /*background: url(/img/GTA5.jpg);*/
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+section {
+    width: 90%;
+}
+
+.titulo{
+    color: yellowgreen;
+    text-align: center;
+}
+
+.sub-titulo{
+    color: yellowgreen;
+    text-align: start;
+    margin: 20px;
+}
+
+.tem{
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.product-card {
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-rows: 30% auto;
+    width: 30%;
+    height: 45vh;
+    margin: 2%;
+    text-align: center;
+    background-color: rgb(151, 16, 16);
+    transition: 1s;
+}
+
+p {
+    color: white;
+}
+
+.product {
+    color: aliceblue;
+}
+
+.precio{
+    color: rgb(38, 189, 24);
+}
+
+.titulo-end{
+    color: yellowgreen;
+    text-align: center;
+}
+
+.solicitar{
+    color: yellowgreen;
+}
+
+.text-confirm{
+    color: white;
+}
+
+.carro{
+    padding: 20%;
+    margin: 30%;
+}
+
+.añadir{
+    border: hidden;
+}
